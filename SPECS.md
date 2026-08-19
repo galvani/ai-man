@@ -203,7 +203,7 @@ The intended experience is:
 
 1. learner chooses an AI
 2. learner gives the AI the AI Engineering Path repository URL
-3. AI loads the current persona and relevant instructions
+3. AI loads the current persona from `persona/PERSONA.md`
 4. AI uses those instructions during the learner's work
 5. AI checks for updated instructions when appropriate
 

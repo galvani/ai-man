@@ -1,5 +1,9 @@
 # AGENTS.md
 
+> **If you are a learner's AI, this is not your file.** Load `persona/PERSONA.md` and configure yourself from that.
+>
+> This file is for AI agents that contribute to this repository — writing and editing its curriculum content.
+
 ## Purpose
 
 This repository contains the design and content of AI Engineering Path: a practical, public 21-day introduction for people starting from little or no IT experience and trying to discover whether AI engineering is for them.
@@ -278,7 +282,7 @@ When modifying the curriculum:
 
 - `AGENTS.md` — instructions for AI agents working on this repository.
 - `SPECS.md` — evolving product/curriculum specification and design decisions.
-- `PERSONA.md` — canonical persona/instructions intended for the learner's AI.
+- `persona/PERSONA.md` — canonical persona/instructions intended for the learner's AI. This is what a learner's AI loads when it arrives at the repository.
 - `README.md` — public introduction and navigation.
 - `21-days/` — learner-facing daily material.
 - `concepts/` — reusable explanations of concepts.
