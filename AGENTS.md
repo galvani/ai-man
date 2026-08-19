@@ -46,6 +46,8 @@ Never explain a new concept primarily through other concepts the learner has not
 
 Do not overload an early explanation with every technically correct detail. Establish a correct basic model first and refine it later when the learner has a reason to care.
 
+Explain a term where it first appears, and link it to `concepts/GLOSSARY.md`. The glossary holds the short canonical definition; the day keeps its own narrative introduction. A term that reaches the learner with neither is a defect, not a style preference.
+
 ### Learn by needing
 
 Do not create artificial lessons such as "Today we learn ports" without a reason.
@@ -254,6 +256,10 @@ Avoid:
 - overwhelming lists of technologies
 - teaching terminology for its own sake
 
+No day may depend on another person being reachable. Help is available on demand, but the material must work with nobody else present.
+
+Learner-facing material names no prices and never asks the learner to buy anything. How a learner's access is funded is handled outside the curriculum.
+
 The curriculum can change as we learn what works.
 
 ## Public project
@@ -299,3 +305,20 @@ When a design decision is uncertain, record it in `SPECS.md` rather than silentl
 
 Do not create Day 0, Day 1, or other learner-facing material merely to fill the repository. Build them from the agreed specification.
 
+## Keeping the documents current
+
+Every session that changes the product writes the decision down before it ends. A decision left only in a chat log is already lost: the next agent re-derives it differently, and the product drifts a little further each time. That drift is the failure this section exists to prevent.
+
+Where a thing belongs:
+
+- how the material is **written** — tone, terminology, structure, what may be assumed of the reader — this file
+- what the product **is** — audience, scope, sequence, support model, and what was rejected — `SPECS.md`
+- a **term the learner meets** — `concepts/GLOSSARY.md`
+
+Write it in one of them, not two. State it where it belongs and reference it from the other; the same rule in two files becomes two different rules.
+
+Record rejected options and the reason for rejecting them. Most drift is not a new mistake — it is re-proposing something already considered and turned down, because nobody wrote down why.
+
+When a decision makes an existing line false, fix that line in the same session. A stale sentence in these documents is a defect: it will be read as current and acted on.
+
+Read this file and `SPECS.md` before starting work. If what you are about to do contradicts either, say so and get it resolved — do not quietly do it your way and leave the documents describing something else.

@@ -130,6 +130,16 @@ Likely progression of concepts includes:
 
 The exact order is not fixed.
 
+### From a chat window to the learner's own computer
+
+The learner starts in a web chat because it removes every obstacle at once: nothing to install, no terminal, no account beyond an e-mail address.
+
+That cannot last. Real work needs a coding tool running on the learner's own machine — Claude Code, Codex or an equivalent — because a chat window cannot see the files, run the program, or read the error it produced.
+
+That move is the forcing function for most of the list above. A coding agent on a real machine is what makes files and directories, the terminal, processes and the operating system worth explaining: they stop being trivia and become the things standing between the learner and a program that runs. Introducing them earlier would be the artificial curriculum this project rejects.
+
+Day 0 tells the learner the move is coming, so that "nothing to install" is understood as where they start rather than as a promise.
+
 ## 7. AI foundation
 
 The learner should eventually understand a technically sound model of modern LLM systems.
@@ -318,4 +328,5 @@ These should be resolved as the project develops:
 - recommended news sources
 - recommended first project(s)
 - what should be in the public repository vs learner-specific material
+- when the learner moves from a web chat to a coding tool on their own machine, and which tool
 - how the section 15 evaluation is observed, given the learner works alone and contact is on-demand only
