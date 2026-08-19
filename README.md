@@ -38,14 +38,14 @@ Kód píše AI. Ty určuješ, co se má postavit, dáváš AI kontext, kontroluj
 
 Nové pojmy se vysvětlují, až když je potřebuješ. Projekt potřebuje server, server potřebuje port — a v tu chvíli si vysvětlíme, co je port.
 
-## Co je v repozitáři
+## Co tu najdeš
 
 - [`21-days/`](21-days/) — denní materiál
 - [`persona/PERSONA.md`](persona/PERSONA.md) — instrukce, které si načte tvoje AI
 - [`SPECS.md`](SPECS.md) — specifikace kurzu a designová rozhodnutí
 - [`AGENTS.md`](AGENTS.md) — instrukce pro AI agenty, kteří pracují na tomhle repozitáři
 
-Repozitář je veřejný. Všechno, co se tu používá, si můžeš přečíst, prohlédnout a později i měnit.
+Všechno tady je veřejné. Co se v kurzu používá, si můžeš přečíst, prohlédnout a později i měnit.
 
 ## Co to není
 

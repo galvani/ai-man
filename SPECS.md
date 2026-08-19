@@ -18,14 +18,18 @@ The purpose of the 21 days is to create enough real experience to answer:
 
 ## 2. Target learner
 
-The material should work for an adult who:
+The primary reader is an adult deciding whether AI engineering is a direction worth pursuing.
+
+The material should work for someone who:
 
 - is curious about AI
-- has little or no professional programming experience
-- may not know basic IT terminology
-- can learn independently with AI assistance
-- is willing to build things
+- has never programmed
+- may not know IT terminology such as terminal, port, or repository
+- is comfortable using a computer and a browser for everyday things
+- is willing to build things, and to keep going when something breaks
 - does not necessarily have strong English skills
+
+"Comfortable using a computer" is a real prerequisite, not a formality. It was previously implied by "can learn independently with AI assistance", which hid the assumption. Someone without it is not served by this track — the section 6 progression from terminal through databases to deployment is too steep — and leaving that unsaid fails them quietly rather than honestly.
 
 The learner should never be treated as a child.
 
@@ -189,6 +193,12 @@ The persona should tell the learner's AI how to work with the curriculum.
 
 The learner should not need to understand the underlying repository structure or synchronization mechanism.
 
+The curriculum does not require a paid AI subscription to start.
+
+Day 0 states plainly what a free tier limits — message caps, a smaller model answering, shorter context — so that hitting a limit later is recognized as a limit rather than as weak AI.
+
+Learner-facing material does not name prices and does not ask the learner to buy anything. How a learner's access is funded is handled outside the curriculum.
+
 The canonical persona is maintained in the repository.
 
 Platform-specific variants may be generated for:
@@ -277,7 +287,15 @@ The outcome is a decision:
 - explore a neighboring technical direction
 - stop and pursue something else
 
-## 16. Open questions
+## 16. Decided against
+
+### Per-audience tracks
+
+Splitting the 21 days into parallel tracks (seniors / younger / mid-career) was considered and rejected.
+
+Age does not predict what actually differs between readers — goal, starting competence, and available time all cut across generations. The cost is also disproportionate: parallel tracks multiply every day written and every later change, before a single learner has been through the material once. If a second audience needs serving later, the cheaper shape is one spine with a different on-ramp, not a second set of days.
+
+## 17. Open questions
 
 These should be resolved as the project develops:
 
