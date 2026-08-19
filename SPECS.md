@@ -6,7 +6,7 @@ Status: Draft / evolving
 
 ## 1. Product idea
 
-AI Engineering Path is a public, practical learning experience for someone who starts with little or no IT knowledge and wants to discover whether AI engineering is a direction worth pursuing.
+AI Engineering Path is a public, practical learning experience for someone who has never programmed and wants to discover whether AI engineering is a direction worth pursuing.
 
 The first milestone is a 21-day experiment.
 
@@ -307,7 +307,7 @@ Age does not predict what actually differs between readers — goal, starting co
 
 These should be resolved as the project develops:
 
-- final project name
+- final project name — the learner-facing title is "Postav si něco s AI"; the internal working name and the repository name are still open
 - exact public positioning
 - final 21-day sequence
 - recommended AI platforms

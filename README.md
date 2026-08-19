@@ -1,4 +1,4 @@
-# AI Engineering Path
+# Postav si něco s AI
 
 Kód píše AI. Ty říkáš, co má vzniknout. Za 21 dní zjistíš, jestli tě to baví.
 
@@ -42,6 +42,7 @@ Nové pojmy se vysvětlují, až když je potřebuješ. Projekt potřebuje serve
 
 - [`21-days/`](21-days/) — denní materiál
 - [`persona/PERSONA.md`](persona/PERSONA.md) — instrukce, které si načte tvoje AI
+- [`concepts/GLOSSARY.md`](concepts/GLOSSARY.md) — pojmy, když na něco narazíš a nevíš, co to je
 - [`SPECS.md`](SPECS.md) — specifikace kurzu a designová rozhodnutí
 - [`AGENTS.md`](AGENTS.md) — instrukce pro AI agenty, kteří pracují na tomhle repozitáři
 

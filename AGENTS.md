@@ -6,7 +6,7 @@
 
 ## Purpose
 
-This repository contains the design and content of AI Engineering Path: a practical, public 21-day introduction for people starting from little or no IT experience and trying to discover whether AI engineering is for them.
+This repository contains the design and content of AI Engineering Path: a practical, public 21-day introduction for people who have never programmed and are trying to discover whether AI engineering is for them.
 
 This file is the working instruction set for AI agents contributing to this repository.
 
@@ -285,7 +285,7 @@ When modifying the curriculum:
 - `persona/PERSONA.md` — canonical persona/instructions intended for the learner's AI. This is what a learner's AI loads when it arrives at the repository.
 - `README.md` — public introduction and navigation.
 - `21-days/` — learner-facing daily material.
-- `concepts/` — reusable explanations of concepts.
+- `concepts/` — reusable explanations of concepts. `concepts/GLOSSARY.md` is the canonical short definition of every term the material uses; day files link into it by anchor and keep their own narrative introduction.
 - `projects/` — project briefs and project-related material.
 - `resources/` — curated external resources.
 
