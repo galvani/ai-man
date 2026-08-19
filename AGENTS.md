@@ -1,0 +1,297 @@
+# AGENTS.md
+
+## Purpose
+
+This repository contains the design and content of AI Engineering Path: a practical, public 21-day introduction for people starting from little or no IT experience and trying to discover whether AI engineering is for them.
+
+This file is the working instruction set for AI agents contributing to this repository.
+
+## Core philosophy
+
+- The goal is not to teach traditional programming first and AI later.
+- The goal is to teach people how to create real software with AI.
+- AI should do as much implementation work as practical.
+- The learner defines the goal, directs the AI, evaluates the result, understands important parts, and learns to diagnose and fix problems.
+- Every practical project should produce a real, visible result and have a reason to exist.
+- Theory is introduced when it becomes useful, not because it traditionally belongs in an introductory curriculum.
+- The learner should be treated as an adult. Never patronize, infantilize, manipulate, or use fake enthusiasm.
+
+## Four parallel tracks
+
+Every day should ideally combine these four tracks:
+
+1. BUILD — create something real.
+2. UNDERSTAND — learn the concepts needed to understand what was built.
+3. READ — read AI news, documentation, technical material, or relevant articles.
+4. WORK WITH AI — learn to direct AI effectively as part of software development.
+
+The balance can change from day to day.
+
+## Teaching principles
+
+### Meaning before terminology
+
+When introducing a new technical concept:
+
+1. Start with a concrete situation, example, analogy, or mental model.
+2. Make sure the learner can understand why the concept exists.
+3. Introduce the technical term.
+4. Only then give a more precise technical definition when useful.
+
+Never explain a new concept primarily through other concepts the learner has not encountered yet.
+
+Do not overload an early explanation with every technically correct detail. Establish a correct basic model first and refine it later when the learner has a reason to care.
+
+### Learn by needing
+
+Do not create artificial lessons such as "Today we learn ports" without a reason.
+
+Instead:
+
+- the project needs a server
+- the server needs a port
+- therefore we explain the port
+
+The same applies to HTTP, JSON, APIs, databases, Linux, Git, processes, networking, etc.
+
+### AI writes code
+
+Do not force the learner to manually write code in order to "learn programming."
+
+AI can write, modify, refactor, debug, and explain code.
+
+The learner should instead learn to:
+
+- describe what needs to be built
+- provide useful context
+- give good instructions
+- inspect generated work
+- run it
+- read errors
+- ask useful follow-up questions
+- verify results
+- understand important architectural and technical decisions
+
+The goal is AI-assisted software creation, not typing practice.
+
+### Understanding still matters
+
+"AI wrote it" is not the end of the process.
+
+The learner should gradually be able to explain:
+
+- what the software does
+- what its main components are
+- how data moves through it
+- why important parts exist
+- what went wrong when something failed
+- how to change or extend it
+
+The required depth of understanding should grow with the learner.
+
+## Technical foundations
+
+Introduce foundational concepts progressively and in context, including when needed:
+
+- files and directories
+- programs and processes
+- operating systems
+- Windows vs Linux
+- terminal
+- localhost
+- IP addresses
+- ports
+- HTTP
+- requests and responses
+- APIs
+- JSON
+- databases and SQL
+- Python or another suitable language
+- Git and GitHub
+- deployment and basic infrastructure
+
+Do not turn these into a traditional prerequisite curriculum.
+
+## AI foundations
+
+The learner should progressively build an accurate mental model of modern AI.
+
+Eventually cover concepts such as:
+
+- AI vs model vs application
+- LLMs
+- tokens and tokenization
+- next-token prediction
+- context
+- inference
+- sampling
+- embeddings
+- RAG
+- tool/function calling
+- agents
+- MCP
+- local models
+- model size and parameters
+- quantization
+- GPU, VRAM, and inference performance
+- evaluation and reliability
+
+A core concept is that an LLM should not be presented as a human-like mind. Explain that language generation is fundamentally based on model prediction over tokens, while also explaining why this can produce surprisingly capable behavior.
+
+Avoid both extremes:
+- "AI is basically a person."
+- "AI is just autocomplete."
+
+The goal is a technically useful mental model.
+
+## Working with AI as a software collaborator
+
+The learner should gradually learn that AI is more than a chat window.
+
+Introduce, when useful:
+
+- project context
+- project instructions
+- README files
+- AGENTS.md
+- CLAUDE.md and equivalent files
+- tools
+- coding agents
+- tool calling
+- Git workflows
+- tests
+- documentation
+- repeatable development workflows
+
+Always explain why a mechanism is useful when it is first introduced.
+
+## English
+
+The project is bilingual by design.
+
+- Explanations may be in Czech.
+- Technical terms should retain their real English names where appropriate.
+- Code, identifiers, variable names, filenames, Git usage, and technical documentation should use English.
+- The learner does not need to speak or write English fluently.
+- Reading technical English is an explicit goal.
+- AI news and technical material should increasingly be read in English.
+- Do not turn this into a school-style English course.
+
+## AI news and ecosystem awareness
+
+The learner should develop the habit of following the AI ecosystem.
+
+Relevant topics include:
+
+- new foundation models
+- model releases and capabilities
+- coding agents
+- AI IDEs and developer tools
+- APIs
+- open-source models
+- inference technology
+- agent frameworks
+- MCP
+- important technical developments
+
+Do not require the learner to follow every announcement.
+
+The goal is to develop the habit of asking:
+
+> What changed, and why does it matter?
+
+Prefer current primary sources and good technical reporting when selecting reading.
+
+## Tone and writing
+
+Write for an adult beginner.
+
+The tone should be:
+- direct
+- friendly
+- natural
+- respectful
+- practical
+- occasionally informal
+
+Avoid:
+- childish language
+- "buddy", "sidekick", "AI pal", or similar forced familiarity
+- motivational clichés
+- marketing language
+- condescending explanations
+- unnecessary emojis
+- fake claims about what the learner "must be excited about"
+
+Do not tell the learner how they are supposed to feel.
+
+## Curriculum design
+
+The 21-day program is an experiment, not a promise of employment.
+
+The primary outcome is:
+
+> Does this person enjoy building things with AI enough to want to continue?
+
+Each day should have a clear outcome.
+
+Prefer:
+- a concrete task
+- a visible result
+- a small amount of relevant theory
+- one or more useful new concepts
+- some reading
+- reflection only when useful
+
+Avoid:
+- long theory chapters before practical work
+- toy exercises with no purpose
+- artificial programming drills
+- overwhelming lists of technologies
+- teaching terminology for its own sake
+
+The curriculum can change as we learn what works.
+
+## Public project
+
+This repository is intended for more people than the original pilot learner.
+
+Do not write content around a specific individual.
+
+The original learner is a pilot user, not the target audience.
+
+Public materials should be useful to any motivated adult starting from zero or near-zero.
+
+## Source of truth
+
+Repository content is the source of truth.
+
+Do not invent a second curriculum in a chat response when an existing repository document already defines it.
+
+When modifying the curriculum:
+- update the relevant source document
+- keep terminology consistent
+- avoid duplicating the same rule in many places
+- prefer linking/referencing canonical documents
+
+## File roles
+
+- `AGENTS.md` — instructions for AI agents working on this repository.
+- `SPECS.md` — evolving product/curriculum specification and design decisions.
+- `PERSONA.md` — canonical persona/instructions intended for the learner's AI.
+- `README.md` — public introduction and navigation.
+- `21-days/` — learner-facing daily material.
+- `concepts/` — reusable explanations of concepts.
+- `projects/` — project briefs and project-related material.
+- `resources/` — curated external resources.
+
+## Change discipline
+
+Before adding a new rule or concept, check whether it already exists.
+
+Prefer improving an existing principle over adding a duplicate.
+
+When a design decision is uncertain, record it in `SPECS.md` rather than silently inventing behavior.
+
+Do not create Day 0, Day 1, or other learner-facing material merely to fill the repository. Build them from the agreed specification.
+
