@@ -1,6 +1,6 @@
 # AI Engineering Path
 
-Praktický 21denní úvod do AI engineeringu pro lidi, kteří začínají s malou nebo žádnou zkušeností s IT.
+Kód píše AI. Ty říkáš, co má vzniknout. Za 21 dní zjistíš, jestli tě to baví.
 
 Cílem není udělat z tebe za 21 dní profesionálního AI engineera. Cílem je dát ti dost skutečné zkušenosti na jednu otázku:
 
@@ -14,13 +14,13 @@ Další dny přibývají v [`21-days/`](21-days/).
 
 ## Pro koho to je
 
-Pro dospělé lidi, které:
+Pro dospělé lidi, kteří:
 
-- zajímá AI
-- nemají profesionální zkušenost s programováním
-- nemusí znát základní IT pojmy
-- umí se učit s pomocí AI
-- chtějí něco stavět
+- se zajímají o AI
+- nikdy neprogramovali
+- nemusí znát pojmy jako terminál, port nebo repozitář
+- běžně používají počítač a prohlížeč
+- chtějí něco stavět a nevzdat to, když se něco rozbije
 - nemusí umět dobře anglicky
 
 Vysvětlení jsou česky. Technické názvy zůstávají anglicky, protože tak se jim říká všude jinde — a číst technickou angličtinu je jeden z cílů.
@@ -34,7 +34,7 @@ Každý den kombinuje čtyři věci:
 - **READ** — číst o AI, dokumentaci a technické materiály
 - **WORK WITH AI** — naučit se AI opravdu řídit
 
-Kód píše AI. Ty určuješ, co se má postavit, dáváš AI kontext, kontroluješ výsledek, spouštíš ho, čteš chyby a rozumíš tomu, co vzniklo. Není to kurz psaní na klávesnici.
+Ty určuješ, co se má postavit, dáváš AI kontext, kontroluješ výsledek, spouštíš ho, čteš chyby a rozumíš tomu, co vzniklo. Není to kurz psaní na klávesnici.
 
 Nové pojmy se vysvětlují, až když je potřebuješ. Projekt potřebuje server, server potřebuje port — a v tu chvíli si vysvětlíme, co je port.
 

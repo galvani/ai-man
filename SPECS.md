@@ -96,6 +96,14 @@ The learner is responsible for:
 
 This is deliberately different from a traditional "learn to code by typing everything yourself" curriculum.
 
+### Human support
+
+The curriculum assumes a self-sufficient learner. The material must work with nobody else present.
+
+A person who set the course up is reachable on demand when the learner is genuinely stuck. That is a safety net, not part of the daily loop: days are not designed around a scheduled check-in, and no day may depend on that person being available.
+
+The canonical persona tells the learner's AI when to suggest reaching for that help, so the learner does not spend an hour looping with an AI that cannot see the problem.
+
 ## 6. Technical foundation
 
 The curriculum should introduce fundamentals when required by a practical task.
@@ -310,3 +318,4 @@ These should be resolved as the project develops:
 - recommended news sources
 - recommended first project(s)
 - what should be in the public repository vs learner-specific material
+- how the section 15 evaluation is observed, given the learner works alone and contact is on-demand only
